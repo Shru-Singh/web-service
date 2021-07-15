@@ -1,0 +1,7 @@
+.carouselimage{
+    max-height: 70vh;
+    width: 100vw;
+    object-fit: inherit;
+    position: relative;
+    z-index: 1;
+}
