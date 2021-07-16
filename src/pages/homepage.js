@@ -67,9 +67,18 @@ const Home = () => {
         infiniteLoop="true"
         dynamicHeight="false"
       >
-        <img className="carouselimage" src="Images/c1.jpg" alt="" />
-        <img className="carouselimage" src="Images/c2.jpg" alt="" />
-        <img className="carouselimage" src="Images/c3.jpg" alt="" />
+        <div className="carsouseltext">
+          <img className="carouselimage" src="Images/c2.jpg" alt="" />
+          <h1>We build amazing websites and robust software applications</h1>
+        </div>
+        <div className="carsouseltext">
+          <img className="carouselimage" src="Images/c1.jpg" alt="" />
+          <h1>We build amazing websites and robust software applications</h1>
+        </div>
+        <div className="carsouseltext">
+          <img className="carouselimage" src="Images/c3.jpg" alt="" />
+          <h1>We build amazing websites and robust software applications</h1>
+        </div>
       </Carousel>
       <h1 className="homeh1">Our Services</h1>
       <div className="services">
@@ -81,7 +90,12 @@ const Home = () => {
             application, whether you’re a start-up or an established business
             looking to outshine with innovative ideas!
           </p>
-          <h3>Learn more</h3>
+          <div className="learn">
+            <div className="">
+              <h3>Learn more</h3>
+              <div className="linelearnmore"></div>
+            </div>
+          </div>
         </div>
         <div className="serve">
           <img src="Images/s2.png" alt="" />
@@ -91,7 +105,12 @@ const Home = () => {
             isn’t performing? We create engaging websites that offer the very
             best in user experience and drive enquiries.
           </p>
-          <h3>Learn more</h3>
+          <div className="learn">
+            <div className="">
+              <h3>Learn more</h3>
+              <div className="linelearnmore"></div>
+            </div>
+          </div>
         </div>
         <div className="serve">
           <img src="Images/s3.png" alt="" />
@@ -101,7 +120,12 @@ const Home = () => {
             with our industry leading experience give you the control needed to
             grow your business.
           </p>
-          <h3>Learn more</h3>
+          <div className="learn">
+            <div className="">
+              <h3>Learn more</h3>
+              <div className="linelearnmore"></div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="lineup">
@@ -198,7 +222,9 @@ const Home = () => {
               as one of the most trusted online solution providers for
               businesses in Australia.
             </p>
+            <div className="lineblack"></div>
             <h2>An experienced and trusted digital agency</h2>
+            <div className="lineblack"></div>
             <p>
               Our ability to build on any platform willingness to adapt to the
               client’s needs make us the ideal web solutions provider. Working
@@ -207,6 +233,38 @@ const Home = () => {
               value to our customers by refining their ideas and realising their
               goals through our decade-long expertise and experience.
             </p>
+            <div className="learnmore">
+              <h3>Learn more</h3>
+              <div className="linelearnmore"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="lineup">
+        <div className="line"></div>
+      </div>
+      <div className="insights">
+        <h1>Check our latest insights</h1>
+        <div className="">
+          <div className="insightflex">
+            <img src="Images/f7.jpg" alt="" />
+            <div className="">
+              <h2>Top 6 Payment Gateways for Online Businesses in Australia</h2>
+              <div className="learnmore">
+                <h3>Read article</h3>
+                <div className="linelearnmore"></div>
+              </div>
+            </div>
+          </div>
+          <div className="insightflex">
+            <img src="Images/f8.jpg" alt="" />
+            <div className="">
+              <h2>A Comprehensive Guide to Website Management</h2>
+              <div className="learnmore">
+                <h3>Read article</h3>
+                <div className="linelearnmore"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
