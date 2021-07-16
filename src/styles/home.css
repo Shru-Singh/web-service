@@ -1,7 +1,144 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
 .carouselimage{
-    max-height: 70vh;
-    width: 100vw;
-    object-fit: inherit;
+    object-fit: cover;
     position: relative;
     z-index: 1;
+}
+.navbarbtn {
+    font-size: 20px !important;
+}
+.homeh1 {
+    text-align: center;
+    font-size: 8vh;
+}
+.services {
+    display: flex;
+    padding:  0 12vw;
+    text-align: center;
+}
+.serve img {
+    height: 10vh;
+    width: auto;
+}
+.serve h1 {
+    font-size: 40px;
+}
+.serve p {
+    font-size: 20px;
+    padding:0 30px;
+    line-height:2rem;
+}
+.line {
+    height:1.5px;
+    background-color: black;
+    width: 80vw;
+}
+.lineup {
+    margin-top: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature {
+    padding: 0 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.feat {
+    text-align: center;
+    margin: 25px 40px;
+}
+.featimg {
+     display: inline-block;
+     margin: 20px;
+     overflow: hidden;
+}
+.feat img:hover {
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+    cursor: pointer;
+}
+.feat img {
+    height: 350px;
+    width: auto;
+    display: block;
+     transition: transform .4s;
+}
+.btnview {
+  
+    text-align: center;
+    background-color: black;
+    width:fit-content;
+}
+.btn {
+     text-align: center;
+    color: white !important;
+}
+.customerlove {
+     position: absolute;
+     height: 400px;
+     width: auto;
+    display: flex;
+    background-color: black;
+    color: white;
+   margin: 10vh 12vw;
+   z-index: 2;
+}
+.customimg {
+    margin-top: 90px;
+   position: relative;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.customimg img{
+    height: 350px;
+    width: auto;
+}
+.customtext {
+    margin: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text p {
+    font-size: 20px;
+    line-height: 2rem;
+}
+.text h4 {
+    margin-top: 12px;
+    font-size: 35px;
+}
+.linewhite {
+    height: 1px;
+    background-color: white;
+}
+.linemid {
+        margin-top: 55px;
+}
+.custom {
+    position: relative;
+    height: 500px !important;
+    width: auto;
+    z-index: 1;
+}
+.leading {
+    margin: 10vh 12vw;
+    position: relative;
+    display:flex;
+}
+.leadingdiv2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.leadingdiv2 p {
+    line-height: 1.5rem;
 }
