@@ -33,7 +33,7 @@ const Navbar = () => {
           elevation={0}
         >
           <Toolbar>
-            <Typography variant="h3" className={classes.title} onClick={() => (window.location.href = "/")}>
+            <Typography variant="h4" className={classes.title} onClick={() => (window.location.href = "/")}>
               Web Service
             </Typography>
             <Button color="inherit" className="navbarbtn" onClick={() => (window.location.href = "/about")}>

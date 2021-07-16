@@ -127,7 +127,7 @@ const Home = () => {
       <div className="" style={{ display: "flex", justifyContent: "center" }}>
         <div className="btnview">
           <Button className="btn">
-            View all projects{" "}
+            View all projects
             {/* <span
               style={{
                 fontSize: "30px",

@@ -1,0 +1,21 @@
+.servicescard {
+    height:50vh;
+    background-color: black;
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.servicescard h1{
+     margin-top: 0px;
+     font-size: 50px;
+     width: 60%;
+}
+.servedev {
+    display:flex;
+    margin: 10vh 12vw;
+}
+.servedev img{
+    height: 350px;
+    width: auto;
+}
