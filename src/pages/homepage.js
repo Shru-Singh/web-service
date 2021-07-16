@@ -2,63 +2,17 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import "../styles/home.css";
-import { makeStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
 import Footer from "./footer";
+import Navbar from "./navbar";
+import Button from "@material-ui/core/Button";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  title: {
-    flexGrow: 1,
-  },
-}));
 
 const Home = () => {
-  const classes = useStyles();
+  
 
   return (
     <>
-      <div className={classes.root}>
-        <AppBar
-          position="static"
-          style={{
-            backgroundColor: "black",
-            padding: "10px 0",
-          }}
-          elevation={0}
-        >
-          <Toolbar>
-            <Typography variant="h3" className={classes.title}>
-              Web Service
-            </Typography>
-            <Button color="inherit" className="navbarbtn">
-              About Us
-            </Button>
-            <Button
-              color="inherit"
-              className="navbarbtn"
-              style={{ margin: "0 50px" }}
-            >
-              Services
-            </Button>
-            <Button
-              className="navbarbtn"
-              style={{ marginRight: "70px" }}
-              color="inherit"
-            >
-              Contact
-            </Button>
-          </Toolbar>
-        </AppBar>
-      </div>
+     <Navbar/>
       <Carousel
         showThumbs={false}
         showStatus={false}
