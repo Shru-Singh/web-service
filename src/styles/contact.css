@@ -1,0 +1,66 @@
+.contact {
+    display: flex;
+}
+.contactform {
+    background-color: rgba(230, 230, 230, 0.966);
+    width: 40%;
+    padding-bottom: 40px;
+}
+.contactform h1 {
+    margin-left: 6vw;
+    font-size: 6vh;
+}
+.align {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.align h2 {
+    font-size: 35px;
+}
+.column {
+    display: grid;
+}
+.form-control {
+margin: 5px 0px 8px 0px;
+height: 30px;
+box-sizing: border-box;
+font-size: 15px;
+}
+.form-message {
+    margin: 5px 0px 8px 0px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.contactcity{
+    width: 60%;
+}
+.contactcity img {
+    height: auto;
+    width: 350px;
+}
+.callus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.emaildetail {
+    display: flex;
+}
+.number {
+    margin-right: 80px;
+}
+.contactcity h1 {
+    text-align: right;
+    margin-right: 6vw;
+    cursor: pointer;
+}
+.contactdisplay {
+    display: flex;
+}
+.city {
+    margin-right: 80px;
+    width: 200px;
+}
