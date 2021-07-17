@@ -1,3 +1,7 @@
+h1 {
+    font-size: 8vh;
+}
+
 .servicescard {
     height:50vh;
     background-color: black;
@@ -17,5 +21,61 @@
 }
 .servedev img{
     height: 350px;
+    width: auto;
+}
+.dev {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.design {
+     display: flex;
+     align-items: center;
+     margin-left: 50px;
+}
+.industry {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 10vh 12vw;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+.industry h1 {
+    margin-right: 45px;
+    margin-left: 0px;
+}
+.industryicons {
+    margin-left: 50px;
+}
+.threeicon{
+    display: flex;
+}
+.icons {
+    text-align: center;
+    margin: 20px;
+    width: 100px;
+}
+.icons img {
+    height: 35px;
+    width:auto;
+}
+.linevertical {
+    width: 1px;
+    height:145px;
+    background-color: white;
+}
+.technology {
+    margin: 10vh 12vw;
+    text-align: center;
+}
+.technologyicons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.technologyicons img {
+    margin: 30px;
+    height: 45px;
     width: auto;
 }
