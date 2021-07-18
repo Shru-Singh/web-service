@@ -6,13 +6,10 @@ import Footer from "./footer";
 import Navbar from "./navbar";
 import Button from "@material-ui/core/Button";
 
-
 const Home = () => {
-  
-
   return (
     <>
-     <Navbar/>
+      <Navbar />
       <Carousel
         showThumbs={false}
         showStatus={false}
@@ -24,15 +21,21 @@ const Home = () => {
       >
         <div className="carsouseltext">
           <img className="carouselimage" src="Images/c2.jpg" alt="" />
-          <h1>We build amazing websites and robust software applications</h1>
+          <div className="shadow">
+            <h1>We build amazing websites and robust software applications</h1>
+          </div>
         </div>
         <div className="carsouseltext">
           <img className="carouselimage" src="Images/c1.jpg" alt="" />
-          <h1>We build amazing websites and robust software applications</h1>
+          <div className="shadow">
+            <h1>We build amazing websites and robust software applications</h1>
+          </div>
         </div>
         <div className="carsouseltext">
           <img className="carouselimage" src="Images/c3.jpg" alt="" />
-          <h1>We build amazing websites and robust software applications</h1>
+          <div className="shadow">
+            <h1>We build amazing websites and robust software applications</h1>
+          </div>
         </div>
       </Carousel>
       <h1 className="homeh1">Our Services</h1>

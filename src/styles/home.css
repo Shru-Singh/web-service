@@ -1,3 +1,9 @@
+:root {
+    --background-color: black;
+    --text-color: white;
+}
+
+
 body {
     height: 100%;
     width: 100%;
@@ -7,15 +13,24 @@ body {
 }
 .carouselimage{
     object-fit: cover;
-  max-height: 600px;
+  max-height: 550px;
     
+}
+.shadow {
+    top: 0%;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
 }
 .carsouseltext h1 {
     position: absolute ;
-    font-size: 45px;
+    font-size: 8vh;
      top: 30%;
      left: 10%;
-     color: white;
+     color: var(--text-color);
 }
 /* .navbarbtn {
     font-size: 20px !important;
@@ -53,7 +68,7 @@ body {
 }
 .line {
     height:1.5px;
-    background-color: black;
+    background-color: var(--background-color);
     width: 80vw;
 }
 .lineup {
@@ -93,20 +108,20 @@ body {
 .btnview {
   
     text-align: center;
-    background-color: black;
+    background-color: var(--background-color);
     width:fit-content;
 }
 .btn {
      text-align: center;
-    color: white !important;
+    color: var(--text-color) !important;
 }
 .customerlove {
      position: absolute;
      height: 400px;
      width: auto;
     display: flex;
-    background-color: black;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
    margin: 10vh 12vw;
    z-index: 2;
 }
@@ -137,7 +152,7 @@ body {
 }
 .linewhite {
     height: 1px;
-    background-color: white;
+    background-color: var(--text-color);
 }
 .linemid {
         margin-top: 55px;
@@ -164,11 +179,11 @@ body {
 }
 .lineblack {
      height: 1px;
-     background-color: black;
+     background-color: var(--background-color);
 }
 .linelearnmore {
      height: 0.7px;
-     background-color: black;
+     background-color: var(--background-color);
     
 }
 .learnmore {

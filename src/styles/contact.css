@@ -39,6 +39,7 @@ font-size: 15px;
 .contactcity img {
     height: auto;
     width: 350px;
+    object-fit: cover;
 }
 .callus {
     display: flex;

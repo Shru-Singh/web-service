@@ -1,9 +1,8 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import "../styles/services.css";
 import Button from "@material-ui/core/Button";
-import "../styles/home.css";
+
 
 const Services = () => {
   return (

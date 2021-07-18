@@ -1,9 +1,6 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import "../styles/services.css";
-import "../styles/about.css";
-import "../styles/home.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 

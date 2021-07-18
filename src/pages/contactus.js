@@ -1,8 +1,7 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import Footer from "./footercontactus";
-import "../styles/contact.css";
-import "../styles/home.css";
+
 
 const Contact = () => {
   return (

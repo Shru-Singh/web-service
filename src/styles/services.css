@@ -2,8 +2,8 @@
 
 .servicescard {
     height:50vh;
-    background-color: black;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
    display: flex;
    align-items: center;
    justify-content: center;
@@ -35,8 +35,8 @@
      margin-left: 50px;
 }
 .industry {
-    background-color: black;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
     display: flex;
     margin: 10vh 12vw;
     justify-content: center;
@@ -66,7 +66,7 @@
 .linevertical {
     width: 1px;
     height:145px;
-    background-color: white;
+    background-color: var(--text-color);
 }
 .technology {
     margin: 10vh 12vw;

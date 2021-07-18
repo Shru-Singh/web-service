@@ -1,6 +1,6 @@
 .footer {
-    background-color: black;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
     padding-top: 20px;
 }
@@ -19,7 +19,7 @@
 .linefoot {
     height: 0.004rem;
     width: 80vw;
-    background-color: white;
+    background-color: var(--text-color);
 }
 .linefooter {
     margin-top: 60px;
