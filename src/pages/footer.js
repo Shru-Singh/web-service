@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <h2>Got a project that you would like to discuss? Contact Us</h2>
+        <h2>Got a project that you would like to discuss? <span onClick={() => (window.location.href = "/contact")}>Contact Us&#8594;</span></h2>
         <div className="linefooter">
           <div className="linefoot"></div>
         </div>

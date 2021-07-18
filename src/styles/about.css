@@ -40,7 +40,7 @@
      width: 400px;
 }
 .Carousel h2 {
-    color: orange;
+    color: var(--btn-color);
 }
 .vision {
     margin: 10vh 12vw;

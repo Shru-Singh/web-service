@@ -18,6 +18,7 @@
 .align h2 {
     font-size: 35px;
 }
+
 .column {
     display: grid;
 }
@@ -58,10 +59,16 @@ font-size: 15px;
     margin-right: 6vw;
     cursor: pointer;
 }
+.contactcity h1:hover {
+    color: var(--btn-color);
+}
 .contactdisplay {
     display: flex;
 }
 .city {
     margin-right: 80px;
     width: 200px;
+}
+.city p {
+    margin: 0.5px;
 }

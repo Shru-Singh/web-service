@@ -1,13 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lateef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
 :root {
     --background-color: black;
     --text-color: white;
+    --btn-color: orange;
 }
-
-
+h1 {
+    font-family: 'Coda',
+    cursive;
+}
+h2 {
+    font-family: 'Coda',
+    cursive;
+}
+h3 {
+/* font-family: 'Courier Prime',
+monospace; */
+font-family: 'Fira Mono',
+monospace;
+}
+h4 {
+   /* font-family: 'Courier Prime',
+   monospace; */
+   font-family: 'Fira Mono',
+   monospace;
+}
+p {
+   font-family: 'Lateef',
+   cursive;
+   font-size: 23px;
+}
 body {
     height: 100%;
     width: 100%;
 }
+.navbarbtn:hover {
+  color: var(--btn-color);
+}
+
 .carsouseltext {
     position: relative;
 }
@@ -27,17 +60,18 @@ body {
 }
 .carsouseltext h1 {
     position: absolute ;
-    font-size: 8vh;
+    font-size: 6vh;
      top: 30%;
      left: 10%;
      color: var(--text-color);
+     width: 80%;
 }
 /* .navbarbtn {
     font-size: 20px !important;
 } */
 .homeh1 {
     text-align: center;
-    font-size: 8vh;
+    font-size: 6vh;
 }
 .services {
     display: flex;
@@ -59,12 +93,11 @@ body {
     width: auto;
 }
 .serve h1 {
-    font-size: 40px;
+    font-size: 35px;
 }
 .serve p {
-    font-size: 20px;
     padding:0 30px;
-    line-height:2rem;
+    line-height:1.5rem;
 }
 .line {
     height:1.5px;
@@ -114,6 +147,7 @@ body {
 .btn {
      text-align: center;
     color: var(--text-color) !important;
+    padding:  6px 16px !important;
 }
 .customerlove {
      position: absolute;
@@ -143,8 +177,7 @@ body {
     justify-content: center;
 }
 .text p {
-    font-size: 20px;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 .text h4 {
     margin-top: 12px;
