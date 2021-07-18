@@ -119,6 +119,11 @@ justify-content: center;
 .linenum {
     display: flex;
 }
+.linenum p {
+    margin: 1px 0px;
+    display: flex;
+    align-items: center;
+}
 .whiteline {
     height: 0.7px;
     width: 100%;
