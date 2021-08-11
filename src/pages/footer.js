@@ -30,16 +30,10 @@ const Footer = () => {
             <p>DIY Websites</p>
           </div>
           <div className="foot">
-            <h3>Melbourne</h3>
-            <p>Suite 910, 9 Yarra St</p>
-            <p>South Yarra, VIC 3141, Australia</p>
-            <p>(03) 8669 0640</p>
-          </div>
-          <div className="foot">
-            <h3>Sydney</h3>
-            <p>Suite 11, 1401 Botany Road</p>
-            <p>Botany, NSW 2019, Australia</p>
-            <p>(02) 8004 3410</p>
+            <h3>Kolkata</h3>
+            <p>Godrej waterside building tower 2</p>
+            <p>saltlake sector v 700091</p>
+            <p>+91 7439543939</p>
           </div>
         </div>
         <div className="footlogos">
