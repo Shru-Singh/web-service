@@ -50,6 +50,10 @@ font-size: 15px;
 }
 .emaildetail {
     display: flex;
+   
+}
+.emaildetail h3{
+     margin: 0px;
 }
 .number {
     margin-right: 150px;
@@ -81,4 +85,7 @@ font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.city h4 {
+    cursor: pointer;
 }

@@ -55,23 +55,37 @@ const Contact = () => {
           <div className="center">
             <div className="callus">
               <div className="">
-                <div className="emaildetail">
+                {/* <div className="emaildetail">
                   <div className="number">
                     <h3>Call Us</h3>
                     <p>+91 7439543939</p>
+                    <h3>Email Us</h3>
+                    <div className="" style={{ display: "flex" }}>
+                      <p style={{ marginRight: "70px" }}>
+                        website.godaddysites.com
+                      </p>
+                      <p>jhasubh09@gmail.com</p>
+                    </div>
                   </div>
                   <div className="emailus">
                     <h3>Email Us</h3>
                     <p>jhasubh09@gmail.com</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="contactdisplay">
                   <div className="city">
                     <h3>Kolkata</h3>
                     <p>Godrej waterside building tower 2</p>
                     <p>saltlake sector v 700091</p>
                     <p>India</p>
-                    <h4>Get direction</h4>
+                    <h4
+                      onClick={() =>
+                        (window.location.href =
+                          "https://maps.google.com/maps?q=22.5739112%2C88.4384212&z=17&hl=en")
+                      }
+                    >
+                      Get direction
+                    </h4>
                   </div>
                   <img src="Images/m1.jpg" alt="" />
                 </div>

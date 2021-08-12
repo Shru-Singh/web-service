@@ -33,7 +33,7 @@ const Footer = () => {
             <h3>Kolkata</h3>
             <p>Godrej waterside building tower 2</p>
             <p>saltlake sector v 700091</p>
-            <p>+91 7439543939</p>
+            {/* <p>+91 7439543939</p> */}
           </div>
         </div>
         <div className="footlogos">
